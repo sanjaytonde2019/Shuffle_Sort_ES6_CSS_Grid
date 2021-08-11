@@ -16,7 +16,7 @@ main{
 }
 .btn-group-section{
   display: grid;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   grid-column-gap: 20px;
   justify-content: stretch;
@@ -70,6 +70,7 @@ main{
  }
  @media screen and (max-width: 960px) {
   .main-contents{
+    width: 100%;
     border: 7px solid #333333;
     padding: 0 10px;
   }
@@ -86,24 +87,25 @@ main{
     grid-row:1 / 1;
     grid-template-columns: 1fr 1fr;
     margin: 5px auto;
+    width: auto;
   }
   .elePosition{
       background-color: #EFEFEF;  
       color: #000000;
-      font-size: 1.2em;  
+      font-size: 1.5em;  
       height: 40px;    
   }
   .cst-color1{
-      border-left: 8px solid #6F98A8;
+      border-left: 10px solid #6F98A8;
    }
    .cst-color2{
-       border-left: 8px solid #2B8EAD;
+       border-left: 10px solid #2B8EAD;
    }
    .cst-color3{
-       border-left: 8px solid #2F454E;
+       border-left: 10px solid #2F454E;
    }
    .cst-color4{
-       border-left: 8px solid #BFBFBF;
+       border-left: 10px solid #BFBFBF;
    }
    header{
     background-color: #333333;

@@ -1,0 +1,115 @@
+main{
+  display: grid;
+  grid-template-columns: 6fr minmax(170px, 20%);
+  background-color: #EFEFEF;
+}
+#elements-container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat(3, minmax(70px, auto));
+}
+.grid-item{
+  text-align: center;
+  background-color: red;
+  padding: 15px;
+}
+.btn-group-section{
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-column-gap: 20px;
+  justify-content: stretch;
+  grid-auto-rows: 70px;    
+ }
+.btn-cst{
+  padding: 10px 25px;
+  cursor: pointer; 
+  margin: 10px 0;
+  text-align: center;
+  text-align: center;
+  background-color: #72C3DC;
+  color: #FFFFFF;
+  border-radius: 7px;
+  border: 1px solid #72C3DC; 
+   box-shadow: 0px 5px 0px #72C3DC;
+}
+.btn-cst:hover {
+   background-color: #3e8e41;
+ }
+ .elePosition{
+   display: grid;
+   place-items: center;
+   color: #FFFFFF;
+   font-weight: bold;
+   font-size: 2em;
+ }
+ .cst-color1{
+    background-color: #6F98A8;
+ }
+ .cst-color2{
+    background-color: #2B8EAD;
+ }
+ .cst-color3{
+    background-color: #2F454E;
+ }
+ .cst-color4{
+    background-color: #BFBFBF;
+ }
+ footer{
+   width: 100%;
+   padding: 15px 0;
+   text-align: center;
+   height: auto;
+  background-color: #EFEFEF;
+ }
+ header{ 
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+ }
+ @media screen and (max-width: 960px) {
+  .main-contents{
+    border: 7px solid #333333;
+    padding: 0 10px;
+  }
+  main{
+    grid-template-columns: 1fr; 
+    background-color: #FFFFFF;     
+  }
+  #elements-container{         
+      grid-template-columns: auto;
+      grid-row-gap: 5px;
+      grid-template-rows: auto;
+  }
+  .btn-group-section{
+    grid-row:1 / 1;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px auto;
+  }
+  .elePosition{
+      background-color: #EFEFEF;  
+      color: #000000;
+      font-size: 1.2em;  
+      height: 40px;    
+  }
+  .cst-color1{
+      border-left: 8px solid #6F98A8;
+   }
+   .cst-color2{
+       border-left: 8px solid #2B8EAD;
+   }
+   .cst-color3{
+       border-left: 8px solid #2F454E;
+   }
+   .cst-color4{
+       border-left: 8px solid #BFBFBF;
+   }
+   header{
+    background-color: #333333;
+    color: #FFFFFF;     
+   }
+   footer{
+      background-color: #FFFFFF;
+   }
+}

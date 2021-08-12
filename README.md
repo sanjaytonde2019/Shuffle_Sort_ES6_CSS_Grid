@@ -10,8 +10,8 @@ Shuffle And Sort Implementation Using ES6 &amp; CSS Grid Features
 ## Demo
 [Click here for demo](https://github.com/sanjaytonde2019/Shuffle_Sort_ES6_CSS_Grid/)
 
-Desktop view
+## Desktop view
 ![Desktop view](https://github.com/sanjaytonde2019/Shuffle_Sort_ES6_CSS_Grid/blob/main/DessktopView.PNG)
 
-Mobile view
+## Mobile view
 ![Mobile view](https://github.com/sanjaytonde2019/Shuffle_Sort_ES6_CSS_Grid/blob/main/MobileView.PNG)

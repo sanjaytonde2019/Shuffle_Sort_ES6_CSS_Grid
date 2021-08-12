@@ -6,4 +6,9 @@ Shuffle And Sort Implementation Using ES6 &amp; CSS Grid Features
 
 <h2> Sort Feature </h2>
 <p> On click of sort button elemments will get sorted and get displayed. </p>
-
+<h2>Viwe Demo </h2>
+<p> Click Here For Demo </p>
+<h2> Desktop View</h2>
+<image>
+<h2> Mobile View</h2>
+ <image>

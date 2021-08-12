@@ -7,10 +7,14 @@
   <title>Shuffle And Sort Element</title>  
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="apple-touch-icon" href="favicon.ico" /> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap-grid.min.css"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
   <link href="ShuffleSort.css" rel="stylesheet"/>
-  <script src="ShuffleSort.js" rel="text/javascript"></script>
+  <script defer src="ShuffleSort.js" rel="text/javascript"></script>
 </head>
-
 <body>
   <section class="el-content">
     <header>
@@ -20,8 +24,8 @@
     <main>
       <div id="elements-container"></div>
       <div class="btn-group-section">
-        <button class="btn-cst" onClick="shuffleArray()">SHUFFLE</button>
-        <button class="btn-cst" onClick="sortArray()">SORT</button>
+        <button class="btn-cst" onClick="shuffleAndSortFunction.runShuffle()">SHUFFLE</button>
+        <button class="btn-cst" onClick="shuffleAndSortFunction.runSort()">SORT</button>
       </div>
     </main>
     <footer> Shuffle And Sort By <a href="https://github.com/sanjaytonde2019/Shuffle_Sort_ES6_CSS_Grid" title="portfolio">{{Sanjay Tonde}}</a></footer>

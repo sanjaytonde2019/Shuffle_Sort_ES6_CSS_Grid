@@ -8,7 +8,7 @@ Shuffle And Sort Implementation Using ES6 &amp; CSS Grid Features
 <p> On click of sort button elemments will get sorted and get displayed. </p>
 
 ## Demo
-[Click here for demo](https://github.com/sanjaytonde2019/Shuffle_Sort_ES6_CSS_Grid/ShuffleSort.html)
+[Click here for demo](https://sanjaytonde2019.github.io/Shuffle_Sort_ES6_CSS_Grid/ShuffleSort.html)
 
 ## Desktop view
 ![Desktop view](https://sanjaytonde2019.github.io/Shuffle_Sort_ES6_CSS_Grid/DessktopView.PNG)
